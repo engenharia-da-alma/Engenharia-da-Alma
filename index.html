@@ -10,89 +10,376 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
         body { font-family: 'Inter', sans-serif; }
     </style>
-
-    <!-- Meta Pixel -->
     <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2329926710848430');
-    fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=2329926710848430&ev=PageView&noscript=1"/>
-    </noscript>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2329926710848430');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2329926710848430&ev=PageView&noscript=1"
+/></noscript>
 </head>
-
 <body class="bg-gray-950 text-white antialiased">
 
-<div class="bg-red-600 text-white text-[10px] md:text-xs py-2 text-center font-black tracking-[0.2em] uppercase">
-    ⚡ ATENÇÃO: CONDIÇÃO ESPECIAL DE LANÇAMENTO EXPIRA EM BREVE
-</div>
-
-<nav class="sticky top-0 w-full z-50 bg-gray-950/80 backdrop-blur-md border-b border-white/5">
-    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div class="text-xl font-black text-yellow-500 italic">ENGENHARIA DA ALMA</div>
-        <div class="hidden md:flex gap-8 text-[10px] font-black uppercase tracking-widest opacity-70">
-            <a href="#metodo" class="hover:text-yellow-500 transition">O Método</a>
-            <a href="#bonus" class="hover:text-yellow-500 transition">Bônus</a>
-            <a href="#faq" class="hover:text-yellow-500 transition">Dúvidas</a>
-        </div>
-        <a href="#oferta" class="bg-yellow-500 text-black px-6 py-2 rounded-full font-bold text-[10px] hover:scale-105 transition">
-            ACESSO IMEDIATO
-        </a>
+    <div class="bg-red-600 text-white text-[10px] md:text-xs py-2 text-center font-black tracking-[0.2em] uppercase">
+        ⚡ ATENÇÃO: CONDIÇÃO ESPECIAL DE LANÇAMENTO EXPIRA EM BREVE
     </div>
-</nav>
 
-<!-- HERO CORRIGIDO -->
-<header class="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-indigo-900/30 via-gray-950 to-gray-950">
-    <div class="w-full flex justify-center px-6">
-        <div class="w-full max-w-6xl text-center z-10">
+    <nav class="sticky top-0 w-full z-50 bg-gray-950/80 backdrop-blur-md border-b border-white/5">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-black text-yellow-500 italic">ENGENHARIA DA ALMA</div>
+            <div class="hidden md:flex gap-8 text-[10px] font-black uppercase tracking-widest opacity-70">
+                <a href="#metodo" class="hover:text-yellow-500 transition">O Método</a>
+                <a href="#bonus" class="hover:text-yellow-500 transition">Bônus</a>
+                <a href="#faq" class="hover:text-yellow-500 transition">Dúvidas</a>
+            </div>
+            <a href="#oferta" class="bg-yellow-500 text-black px-6 py-2 rounded-full font-bold text-[10px] hover:scale-105 transition shadow-[0_0_15px_rgba(234,179,8,0.4)]">ACESSO IMEDIATO</a>
+        </div>
+    </nav>
 
-            <h2 class="text-yellow-500 font-black tracking-[0.4em] mb-6 text-xs uppercase">
-                O Despertar da Nova Inteligência
-            </h2>
-
-            <h1 class="font-black italic uppercase tracking-tight leading-[1.05]
-                       text-[clamp(42px,6vw,88px)] mb-8 break-words">
-                DOMINE SUA MENTE
-                <span class="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500">
-                    ATRAVÉS DO MÉTODO
-                </span>
-            </h1>
+    <header class="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-indigo-900/30 via-gray-950 to-gray-950">
+        <div class="container mx-auto px-6 text-center z-10">
+            <h2 class="text-yellow-500 font-black tracking-[0.4em] mb-4 text-xs uppercase">O Despertar da Nova Inteligência</h2>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 
+           font-extrabold leading-[1.05] mb-8 italic tracking-tight uppercase pt-10 pb-4 text-center">
+    DOMINE SUA MENTE <br>
+    <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500">
+        ATRAVÉS DO MÉTODO
+    </span>
+</h1>
 
             <p class="text-lg md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12 font-light leading-relaxed italic">
                 Aprenda a Engenharia por trás do comportamento humano e rompa os ciclos de ansiedade através dos 12 Portais de Consciência.
             </p>
-
             <div class="space-y-4">
-                <a href="#oferta" class="bg-yellow-500 text-black px-12 py-6 rounded-2xl text-xl font-black hover:scale-105 transition-all inline-block uppercase italic">
+                <a href="#oferta" class="bg-yellow-500 text-black px-12 py-6 rounded-2xl text-xl font-black hover:scale-105 transition-all shadow-[0_20px_50px_rgba(234,179,8,0.3)] inline-block uppercase italic">
                     Quero os 12 Portais agora
                 </a>
                 <p class="text-gray-500 text-[10px] font-bold uppercase tracking-widest flex items-center justify-center gap-2">
-                    <i data-feather="check-circle" class="w-4 h-4 text-green-500"></i>
-                    Acesso Vitalício + Bônus Inclusos
+                    <i data-feather="check-circle" class="w-4 h-4 text-green-500"></i> Acesso Vitalício + Bônus Inclusos
                 </p>
             </div>
-
         </div>
-    </div>
-</header>
+    </header>
 
-<!-- TODO O RESTO DO SEU HTML SEGUE IGUAL AO ORIGINAL -->
-<!-- (não alterei nenhuma seção abaixo do hero) -->
+    <section class="py-24 bg-black border-y border-white/5">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-5xl font-black mb-12 italic text-center uppercase tracking-tighter leading-tight text-white">Até quando você será <span class="text-red-600">vítima</span> dos seus próprios padrões?</h2>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6">
+                        <p class="text-gray-400 text-lg leading-relaxed font-light">
+                            Você sente que está sempre "nadando contra a maré"? Acorda sem energia, procrastina as tarefas mais importantes e, no fim do dia, a frustração é a única coisa que sobra.
+                        </p>
+                        <p class="text-gray-400 text-lg leading-relaxed font-light">
+                            O problema não é sua força de vontade. É que você está tentando construir uma vida nova usando uma **engenharia mental obsoleta**. Sem clareza, você é apenas passageiro da sua própria mente.
+                        </p>
+                    </div>
+                    <div class="bg-red-600/5 p-10 rounded-[2.5rem] border border-red-600/20 shadow-2xl">
+                        <h4 class="text-red-500 font-black mb-6 uppercase tracking-widest text-xs">O Ciclo que você vai quebrar:</h4>
+                        <ul class="space-y-4 text-sm font-bold opacity-80 uppercase tracking-tighter">
+                            <li class="flex items-center gap-3"><i data-feather="x-circle" class="text-red-600 w-5 h-5"></i> Pensamentos acelerados</li>
+                            <li class="flex items-center gap-3"><i data-feather="x-circle" class="text-red-600 w-5 h-5"></i> Medo paralisante do julgamento</li>
+                            <li class="flex items-center gap-3"><i data-feather="x-circle" class="text-red-600 w-5 h-5"></i> Falta de foco crônica</li>
+                            <li class="flex items-center gap-3"><i data-feather="x-circle" class="text-red-600 w-5 h-5"></i> Emoções que dominam suas ações</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- … SEÇÕES: PROBLEMA / MÉTODO / BÔNUS / DEPOIMENTOS / OFERTA / GARANTIA / FAQ / FOOTER … -->
+    <section id="metodo" class="py-24 bg-gray-950">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-6xl font-black italic uppercase tracking-tighter mb-4">A ENGENHARIA DA <span class="text-yellow-500">SUA EVOLUÇÃO</span></h2>
+                <p class="text-gray-500 uppercase tracking-widest text-xs font-bold">Cada portal é um novo nível de poder pessoal</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-10 bg-white/5 rounded-[2rem] border border-white/5 hover:border-yellow-500/30 transition shadow-xl">
+                    <span class="text-yellow-500 font-black text-5xl italic opacity-30">01</span>
+                    <h3 class="text-xl font-black mt-4 mb-4 uppercase italic">Autoconsciência Radical</h3>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed">Mapeie os códigos invisíveis que governam suas decisões e recupere o controle da sua identidade.</p>
+                </div>
+                <div class="p-10 bg-white/5 rounded-[2rem] border border-white/5 hover:border-yellow-500/30 transition shadow-xl">
+                    <span class="text-yellow-500 font-black text-5xl italic opacity-30">02</span>
+                    <h3 class="text-xl font-black mt-4 mb-4 uppercase italic">Alquimia das Emoções</h3>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed">Transforme ansiedade em foco e medo em combustível. Aprenda a neutralizar gatilhos em segundos.</p>
+                </div>
+                <div class="p-10 bg-white/5 rounded-[2rem] border border-white/5 hover:border-yellow-500/30 transition shadow-xl">
+                    <span class="text-yellow-500 font-black text-5xl italic opacity-30">03</span>
+                    <h3 class="text-xl font-black mt-4 mb-4 uppercase italic">Arquitetura de Hábitos</h3>
+                    <p class="text-gray-400 text-sm font-light leading-relaxed">Pare de lutar contra a procrastinação. Projete rotinas que seu cérebro executa no automático.</p>
+                </div>
+            </div>
 
-<script>
-    feather.replace();
-</script>
+            <div class="mt-8 p-10 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-[3rem] text-black flex flex-col md:flex-row items-center justify-between gap-10 shadow-[0_30px_60px_rgba(234,179,8,0.2)]">
+                <div class="max-w-xl text-center md:text-left">
+                    <h3 class="text-4xl font-black uppercase italic tracking-tighter leading-none">E MAIS 9 PORTAIS DE IMPACTO...</h3>
+                    <p class="font-bold opacity-90 uppercase text-xs mt-4 tracking-widest">Incluindo: Foco Inabalável, Engenharia do Propósito, Conexão Humana e Transparência de Alma.</p>
+                </div>
+                <a href="#oferta" class="bg-black text-white px-10 py-5 rounded-2xl font-black uppercase text-xs hover:scale-105 transition">Quero o Método Completo</a>
+            </div>
+        </div>
+    </section>
 
+    <section id="bonus" class="py-24 bg-black">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black text-yellow-500 italic uppercase tracking-tighter">BÔNUS EXCLUSIVOS</h2>
+                <p class="text-gray-500 uppercase tracking-widest text-[10px] font-black mt-2">Acesso liberado após 7 dias da compra</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="flex gap-6 p-8 bg-white/5 rounded-[2rem] border border-white/10 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 bg-yellow-500 text-black font-black px-4 py-1 text-[10px] uppercase italic">R$ 47,00 (Grátis)</div>
+                    <i data-feather="book-open" class="text-yellow-500 w-12 h-12 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="text-xl font-black uppercase italic mb-2">Livro: Reprogramação da Alma</h4>
+                        <p class="text-gray-400 text-xs font-light">O manual definitivo para aplicar cada portal na sua rotina prática.</p>
+                    </div>
+                </div>
+                <div class="flex gap-6 p-8 bg-white/5 rounded-[2rem] border border-white/10 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 bg-yellow-500 text-black font-black px-4 py-1 text-[10px] uppercase italic">R$ 147,00 (Grátis)</div>
+                    <i data-feather="mic" class="text-yellow-500 w-12 h-12 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="text-xl font-black uppercase italic mb-2">Meditação de Integração</h4>
+                        <p class="text-gray-400 text-xs font-light">Áudios guiados para alinhar sua frequência cerebral ao acordar.</p>
+                    </div>
+                </div>
+                <div class="flex gap-6 p-8 bg-white/5 rounded-[2rem] border border-white/10 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 bg-yellow-500 text-black font-black px-4 py-1 text-[10px] uppercase italic">R$ 47,00 (Grátis)</div>
+                    <i data-feather="code" class="text-yellow-500 w-12 h-12 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="text-xl font-black uppercase italic mb-2">Códigos de Realinhamento</h4>
+                        <p class="text-gray-400 text-xs font-light">Atalhos mentais para quebrar estados de estresse e ansiedade.</p>
+                    </div>
+                </div>
+                <div class="flex gap-6 p-8 bg-white/5 rounded-[2rem] border border-white/10 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 bg-yellow-500 text-black font-black px-4 py-1 text-[10px] uppercase italic">R$ 97,00 (Grátis)</div>
+                    <i data-feather="edit-3" class="text-yellow-500 w-12 h-12 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="text-xl font-black uppercase italic mb-2">Caderno Digital EA</h4>
+                        <p class="text-gray-400 text-xs font-light">Planilhas e ferramentas para monitorar seu progresso real.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="py-24 bg-gray-950 border-y border-white/5">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-6xl font-black italic uppercase tracking-tighter mb-4 text-white">QUEM JÁ <span class="text-yellow-500">DESPERTOU</span></h2>
+                <p class="text-gray-500 uppercase tracking-widest text-xs font-bold italic">Pessoas reais, resultados reais</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white/5 p-8 rounded-[2.5rem] border border-white/10 hover:border-yellow-500/20 transition-all group">
+                    <div class="flex gap-1 mb-6">
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-300 italic mb-8 leading-relaxed font-light text-sm">"Eu vivia no automático, escrava da ansiedade. Os 12 Portais me deram a clareza que eu não tive em anos de terapia. É um divisor de águas na minha produtividade."</p>
+                    <div class="flex items-center gap-4 border-t border-white/5 pt-6">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80" alt="Renata" class="w-12 h-12 rounded-full border-2 border-yellow-500 object-cover">
+                        <div>
+                            <p class="font-black uppercase italic text-xs text-white">Renata Camargo</p>
+                            <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Empresária</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 p-8 rounded-[2.5rem] border border-yellow-500/30 shadow-[0_30px_60px_rgba(234,179,8,0.1)] transform md:-translate-y-4 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-yellow-500 text-black font-black px-4 py-1 text-[8px] uppercase">Destaque</div>
+                    <div class="flex gap-1 mb-6">
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                    </div>
+                    <p class="text-white italic mb-8 leading-relaxed font-bold text-base">"O conteúdo sobre Engenharia de Hábitos é bizarro. Eu procrastinava tudo, e agora sinto que recuperei o comando da minha mente. Vale 10x o que custa."</p>
+                    <div class="flex items-center gap-4 border-t border-white/10 pt-6">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80" alt="Marcos" class="w-12 h-12 rounded-full border-2 border-yellow-500 object-cover">
+                        <div>
+                            <p class="font-black uppercase italic text-xs text-white">Marcos Lira</p>
+                            <p class="text-[10px] text-yellow-500 uppercase font-bold tracking-widest">Engenheiro</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 p-8 rounded-[2.5rem] border border-white/10 hover:border-yellow-500/20 transition-all">
+                    <div class="flex gap-1 mb-6">
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                        <i data-feather="star" class="w-4 h-4 text-yellow-500 fill-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-300 italic mb-8 leading-relaxed font-light text-sm">"As meditações de bônus são incríveis. Eu não conseguia parar 5 minutos e hoje acordo com um foco inabalável. O melhor investimento desse ano."</p>
+                    <div class="flex items-center gap-4 border-t border-white/5 pt-6">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&h=100&q=80" alt="Ana" class="w-12 h-12 rounded-full border-2 border-yellow-500 object-cover">
+                        <div>
+                            <p class="font-black uppercase italic text-xs text-white">Ana Nogueira</p>
+                            <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Psicóloga</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="oferta" class="py-24 bg-yellow-500 text-black">
+        <div class="container mx-auto px-6 text-center">
+            <div class="bg-white p-10 md:p-20 rounded-[4rem] md:rounded-[6rem] shadow-[0_50px_100px_rgba(0,0,0,0.3)] max-w-4xl mx-auto relative overflow-hidden border-8 border-black/5">
+                <div class="absolute top-0 right-0 bg-red-600 text-white px-10 py-2 rotate-45 translate-x-10 translate-y-6 font-black text-[10px] uppercase tracking-widest shadow-lg">Oferta Limitada</div>
+                
+                <h2 class="text-6xl md:text-8xl font-black mb-8 italic tracking-tighter uppercase leading-none">FAÇA A SUA <br> ESCOLHA</h2>
+                
+                <div class="max-w-md mx-auto text-left mb-12 space-y-3 bg-gray-50 p-8 rounded-[2.5rem] border border-black/5">
+                    <p class="flex items-center gap-3 font-bold text-xs uppercase tracking-tighter"><i data-feather="check-circle" class="text-green-600 w-5 h-5"></i> 12 Portais de Consciência (Completo)</p>
+                    <p class="flex items-center gap-3 font-bold text-xs uppercase tracking-tighter"><i data-feather="check-circle" class="text-green-600 w-5 h-5"></i> Bônus: Livro Reprogramação da Alma</p>
+                    <p class="flex items-center gap-3 font-bold text-xs uppercase tracking-tighter"><i data-feather="check-circle" class="text-green-600 w-5 h-5"></i> Bônus: Meditações de Integração</p>
+                    <p class="flex items-center gap-3 font-bold text-xs uppercase tracking-tighter"><i data-feather="check-circle" class="text-green-600 w-5 h-5"></i> Bônus: Códigos EA + Caderno Digital</p>
+                    <p class="flex items-center gap-3 font-black text-xs uppercase tracking-tighter text-yellow-600 border-t border-black/5 pt-3 mt-3"><i data-feather="star" class="w-5 h-5 fill-yellow-500"></i> Acesso Vitalício + Atualizações</p>
+                </div>
+
+                <div class="mb-12">
+                    <p class="text-xl line-through opacity-30 font-bold mb-2 uppercase tracking-widest">Valor Total: R$ 885,00</p>
+                    <div class="text-8xl md:text-9xl font-black leading-none mb-4 tracking-tighter text-gray-900">R$ 97,00</div>
+                    <p class="text-2xl font-black uppercase mb-4 tracking-tighter">OU EM 12X DE <span class="text-5xl">R$ 10,03</span></p>
+                    
+                   <a href="https://pay.hotmart.com/V103443931N" class="block w-full bg-gradient-to-b from-blue-600 to-blue-800 text-white py-10 rounded-[2rem] text-2xl md:text-4xl font-black hover:scale-105 transition-all shadow-[0_20px_50px_rgba(30,64,175,0.4)] uppercase tracking-tighter mb-8 italic text-center border-b-4 border-blue-900">
+    Garantir Minha Vaga Agora
+</a>
+                </div>
+
+             <a href="https://pay.hotmart.com/V103443931N" class="block w-full bg-gradient-to-b from-blue-600 to-blue-800 text-white py-10 rounded-[2rem] text-2xl md:text-4xl font-black hover:scale-105 transition-all shadow-[0_20px_50px_rgba(30,64,175,0.4)] uppercase tracking-tighter mb-8 italic text-center border-b-4 border-blue-900">
+    Garantir Minha Vaga Agora
+</a>
+                
+                <div class="flex flex-wrap justify-center gap-8 opacity-50 text-[10px] font-black uppercase tracking-[0.2em]">
+                    <span class="flex items-center gap-2"><i data-feather="lock" class="w-4 h-4"></i> Pagamento Seguro</span>
+                    <span class="flex items-center gap-2"><i data-feather="shield" class="w-4 h-4"></i> 7 Dias de Garantia</span>
+                    <span class="flex items-center gap-2"><i data-feather="zap" class="w-4 h-4"></i> Acesso Imediato</span>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="py-12 bg-gray-950">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto bg-white/5 border border-white/10 rounded-[3rem] p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
+                <div class="relative flex-shrink-0">
+                    <div class="w-32 h-32 md:w-40 md:h-40 border-4 border-yellow-500 rounded-full flex items-center justify-center">
+                        <div class="text-center">
+                            <span class="block text-4xl md:text-5xl font-black text-yellow-500">7</span>
+                            <span class="block text-[10px] font-black uppercase tracking-widest text-yellow-500 leading-none">Dias de</span>
+                            <span class="block text-[10px] font-black uppercase tracking-widest text-yellow-500">Garantia</span>
+                        </div>
+                    </div>
+                    <div class="absolute -bottom-2 -right-2 bg-yellow-500 text-black p-2 rounded-full shadow-xl">
+                        <i data-feather="shield" class="w-6 h-6"></i>
+                    </div>
+                </div>
+
+                <div class="text-center md:text-left">
+                    <h3 class="text-2xl md:text-3xl font-black uppercase italic italic tracking-tighter mb-4 text-white">Sua satisfação ou <span class="text-yellow-500">100% do seu dinheiro de volta.</span></h3>
+                    <p class="text-gray-400 text-sm md:text-base font-light leading-relaxed">
+                        Eu tenho tanta confiança no método **Engenharia da Alma** que eu te dou 7 dias de garantia incondicional. Se por qualquer motivo você achar que os 12 Portais não são para você, basta enviar um e-mail e devolvemos cada centavo. Sem perguntas, sem burocracia e continuamos amigos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="py-24 bg-gray-950">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <h2 class="text-4xl font-black text-center mb-16 italic uppercase tracking-tighter">Perguntas Frequentes</h2>
+            
+            <div class="space-y-4"> 
+                <details class="group bg-white/5 rounded-2xl p-6 border border-white/5 cursor-pointer hover:bg-white/10 transition-all">
+                    <summary class="list-none font-bold text-sm md:text-base flex justify-between items-center text-white uppercase italic tracking-widest">
+                        Como recebo o acesso?
+                        <span class="group-open:rotate-45 transition-transform bg-yellow-500 text-black p-1 rounded-full"><i data-feather="plus" class="w-4 h-4"></i></span>
+                    </summary>
+                    <div class="mt-4 text-gray-400 leading-relaxed pt-4 border-t border-white/5 font-light text-sm">
+                        O acesso é enviado automaticamente para o seu e-mail logo após a confirmação do pagamento.
+                    </div>
+                </details>
+
+                <details class="group bg-white/5 rounded-2xl p-6 border border-white/5 cursor-pointer hover:bg-white/10 transition-all">
+                    <summary class="list-none font-bold text-sm md:text-base flex justify-between items-center text-white uppercase italic tracking-widest">
+                        O método serve para iniciantes?
+                        <span class="group-open:rotate-45 transition-transform bg-yellow-500 text-black p-1 rounded-full"><i data-feather="plus" class="w-4 h-4"></i></span>
+                    </summary>
+                    <div class="mt-4 text-gray-400 leading-relaxed pt-4 border-t border-white/5 font-light text-sm">
+                        Sim. Ele foi desenhado passo a passo para quem nunca estudou autoconhecimento ou inteligência emocional.
+                    </div>
+                </details>
+
+                <details class="group bg-white/5 rounded-2xl p-6 border border-yellow-500/20 cursor-pointer hover:bg-white/10 transition-all text-yellow-500">
+                    <summary class="list-none font-bold text-sm md:text-base flex justify-between items-center uppercase italic tracking-widest">
+                        Como funcionam os Bônus?
+                        <span class="group-open:rotate-45 transition-transform bg-yellow-500 text-black p-1 rounded-full"><i data-feather="plus" class="w-4 h-4"></i></span>
+                    </summary>
+                    <div class="mt-4 text-gray-400 leading-relaxed pt-4 border-t border-white/5 font-light text-sm">
+                        Os bônus são liberados automaticamente dentro da área de membros após os 7 dias de garantia incondicional.
+                    </div>
+                </details>
+
+                <details class="group bg-white/5 rounded-2xl p-6 border border-white/5 cursor-pointer hover:bg-white/10 transition-all">
+                    <summary class="list-none font-bold text-sm md:text-base flex justify-between items-center text-white uppercase italic tracking-widest">
+                        Qual a garantia do programa?
+                        <span class="group-open:rotate-45 transition-transform bg-yellow-500 text-black p-1 rounded-full"><i data-feather="plus" class="w-4 h-4"></i></span>
+                    </summary>
+                    <div class="mt-4 text-gray-400 leading-relaxed pt-4 border-t border-white/5 font-light text-sm">
+                        Você tem 7 dias para testar. Se não gostar, basta um e-mail para receber 100% do seu dinheiro de volta.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 bg-black border-t border-white/10">
+        <div class="container mx-auto px-6 text-center">
+            <div class="text-3xl font-black text-yellow-500 italic mb-8 uppercase tracking-widest">Engenharia da Alma</div>
+            <div class="flex justify-center gap-12 text-[10px] font-black uppercase tracking-[0.3em] opacity-40 mb-12">
+                <a href="politicas.html" class="hover:text-white transition-colors">Privacidade</a>
+                <a href="termos.html" class="hover:text-white transition-colors">Termos de Uso</a>
+            </div>
+            <p class="text-[9px] text-gray-700 uppercase tracking-widest leading-loose max-w-3xl mx-auto">
+                Este site não é afiliado ao Google ou Facebook. Os resultados podem variar de acordo com o comprometimento de cada aluno. <br>
+                Engenharia da Alma &copy; 2024 - Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
